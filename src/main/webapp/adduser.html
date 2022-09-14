@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body{background-image: url("./639594.jpg");
+  background-size: cover;
+
+}
+
+.contents{
+    background-color: red;
+    width: 40%;
+ 
+    padding: 5px;
+    border: 10px;
+    border-radius: 15px;
+}
+.form{
+   background-color: black;
+ 
+    padding: 20px;
+    border: 10px;
+    border-radius: 15px;
+}
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding :10px;
+    border-radius: 3px;
+    margin: 10px;
+  }
+  
+  .button:hover {
+    background-color: #555555;
+    color: white;
+    
+  }
+
+
+  #student {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #student td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #student tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #student tr:hover {background-color: #ddd;}
+  
+  #student th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left:10px ;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+</style>
+</head>
+<body>
+<center>
+  <div class="contents" >
+  <h1>Student Details</h1>
+  <div class="form">
+<form><table align="center" cellpadding = "10" >
+<tr>
+<td style=color:white>First Name</td>
+<td><input type="text" name="FirstName" maxlength="50" placeholder="Itachi" />
+
+</td>
+</tr>
+<tr>
+<td style=color:white>Last Name</td>
+<td><input type="text" name="LastName" maxlength="50" placeholder="Uchiha"/>
+
+</td>
+</tr>
+<tr>
+<td style=color:white>USN</td>
+<td><input type="text" name="usn" maxlength="100" placeholder="4AD19CS048"/></td>
+</tr>
+<tr>
+<td style=color:white>Mobile Number</td>
+<td>
+<input type="text" name="MobileNumber" maxlength="10" placeholder="9696969696"/>
+
+</td>
+</tr>
+<tr>
+<td style=color:white>Gender</td>
+<td>
+<input type="radio" name="Gender" value="Male" /><span style=color:white>Male</span>
+
+<input type="radio" name="Gender" value="Female" /><span style=color:white>Female</span>
+
+</td>
+</tr>
+<tr>
+<td style=color:white>Date of Birth(DOB)</td>
+<td>
+<input type="date" name="dob">
+</td>
+<tr>
+<td style=color:white>Branch</td>
+<td><select name="branch" >
+<option value="CSE">Computer Science Engineering</option>
+<option value="ECE">Electronics and communication Engineering</option>
+<option value="EEE">Electrical and electronics Engineering</option>
+<option value="ME">Mechanical Engineering</option>
+<option value="CV">Civil Engineering</option>
+
+</select></td>
+<tr>
+<td style=color:white>Year</td>
+<td><select name="branch" >
+<option value="1">1st</option>
+<option value="2">2nd</option>
+<option value="3">3rd</option>
+<option value="4">4th</option>
+
+</select></td>
+</tr>
+</tr>
+<tr>
+<td style=color:white>1st internal Assessment</td>
+<td><input name="ia1" rows="10" cols="50"></input></td>
+</tr>
+<tr>
+<td style=color:white>2nd internal Assessment</td>
+<td><input name="ia2" rows="10" cols="50"></input></td>
+</tr>
+<tr>
+<td style=color:white>3rd internal Assessment</td>
+<td><input name="ia3" rows="10" cols="50"></input></td>
+</tr>
+
+<tr>
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" class="button" value="Submit">
+<input type="reset" class="button" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+  </div>
+  </div>
+  
+</center>
+</body>
+</html>
